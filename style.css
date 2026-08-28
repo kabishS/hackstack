@@ -46,6 +46,10 @@ a{text-decoration:none;color:inherit;}
   backdrop-filter:blur(6px);
   position:sticky; top:0; z-index:50;
 }
+.topbar .container-fluid{
+  padding-left:16px;
+  padding-right:16px;
+}
 .brand{
   display:flex;
   align-items:center;
