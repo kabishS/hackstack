@@ -1,6 +1,7 @@
 # HackStack
 
 A single-page dashboard listing the 16 AI and dev tools your team uses during a hackathon build — from idea to demo day — each card links straight to the tool.
+⭐ If you find this repository useful, please consider giving it a star and contributing new tools to help the list grow.
 
 Live Link - https://kabishs.github.io/hackstack/
 
@@ -40,6 +41,7 @@ Open `script.js` and edit the `TOOLS` array. Each entry looks like:
 - `logo` is a [Simple Icons](https://simpleicons.org) slug, loaded from `cdn.simpleicons.org`. Set it to `null` to fall back to the emoji in `icon`.
 - Cards render in ascending `step` order automatically.
 
-## Credits
+## 👨‍💻 Author
 
-Built by **Kabish** for the hackathon.
+**Kabish S**
+Java Full Stack Developer | Frontend Developer | Manual QA Tester | AI Enthusiast
