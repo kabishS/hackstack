@@ -99,6 +99,13 @@ a{text-decoration:none;color:inherit;}
   margin:.4rem 0 1rem;
 }
 .hero h1 .accent{color:var(--lime);}
+.tagline{
+  color:var(--text);
+  font-size:.95rem;
+  opacity:.85;
+  margin-top:2px;
+}
+.tagline .accent{color:var(--lime); font-weight:600;}
 .hero-count{
   font-family:'JetBrains Mono',monospace;
   font-size:4.2rem;
