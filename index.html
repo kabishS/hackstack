@@ -4,19 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HackStack — AI Toolkit for Hackathons</title>
-
-<!-- favicon (inline SVG, no external image file needed) -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20width%3D%2248%22%20height%3D%2248%22%20viewBox%3D%220%200%2048%2048%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Crect%20width%3D%2248%22%20height%3D%2248%22%20rx%3D%2211%22%20fill%3D%22%230A0E12%22/%3E%3Cpath%20d%3D%22M24%2010L38%2017L24%2024L10%2017L24%2010Z%22%20fill%3D%22%238CFF9B%22/%3E%3Cpath%20d%3D%22M10%2024L24%2031L38%2024%22%20stroke%3D%22%238CFF9B%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20fill%3D%22none%22/%3E%3Cpath%20d%3D%22M10%2031L24%2038L38%2031%22%20stroke%3D%22%234FCF66%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20fill%3D%22none%22/%3E%3C/svg%3E">
-
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <div class="topbar py-3">
-  <div class="container d-flex justify-content-between align-items-center">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
     <div class="brand">
       <svg class="brand-logo" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
         <rect width="48" height="48" rx="11" fill="#0A0E12"/>
@@ -31,9 +27,7 @@
     </button>
   </div>
 </div>
-
 <div class="container">
-
   <div class="hero row align-items-end g-4">
     <div class="col-lg-8">
       <h1>Your AI toolbox, <span class="accent">one click away.</span></h1>
@@ -46,16 +40,12 @@
       <div class="hero-count-label">tools · one pipeline</div>
     </div>
   </div>
-
-  <!-- search -->
   <div class="toolbar d-flex align-items-center gap-3 mt-4">
     <span class="mono" style="color:var(--muted)">$</span>
     <input id="searchInput" class="form-control p-0" placeholder="Search you hackstack.....!">
   </div>
-
   <div id="stages"></div>
   <div id="emptyState">no matches — clear the search, the tool you want is still here.</div>
-
   <footer>
     <div class="d-flex flex-wrap justify-content-between gap-2">
       <span>built by Kabish for the hackathon · HackStack</span>
@@ -63,7 +53,6 @@
     </div>
   </footer>
 </div>
-
 <script src="script.js"></script>
 </body>
 </html>
