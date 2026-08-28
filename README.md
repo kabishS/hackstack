@@ -1,6 +1,7 @@
 # HackStack
 
 A single-page dashboard listing the 16 AI and dev tools your team uses during a hackathon build — from idea to demo day — each card links straight to the tool.
+
 ⭐ If you find this repository useful, please consider giving it a star and contributing new tools to help the list grow.
 
 Live Link - https://kabishs.github.io/hackstack/
