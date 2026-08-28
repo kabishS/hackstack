@@ -16,13 +16,7 @@ hackstack/
 
 No build step, no install. Just open `index.html` in a browser — or for the search/theme features to work reliably, serve the folder locally:
 
-```bash
-# with Python
-python3 -m http.server 8000
-
-# then open
-http://localhost:8000
-```
+---
 
 You can also drag the whole `hackstack/` folder onto a static host (GitHub Pages, Vercel, Netlify) and it'll work as-is.
 
