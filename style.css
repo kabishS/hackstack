@@ -46,6 +46,21 @@ a{text-decoration:none;color:inherit;}
   backdrop-filter:blur(6px);
   position:sticky; top:0; z-index:50;
 }
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.brand-logo{
+  width:34px;height:34px;
+  border-radius:9px;
+  flex-shrink:0;
+}
+.brand-name{
+  font-size:1.05rem;
+  letter-spacing:-.01em;
+}
+.brand-name .accent{color:var(--lime);}
 .brand-dot{
   width:9px;height:9px;border-radius:50%;
   background:var(--lime);
@@ -71,12 +86,6 @@ a{text-decoration:none;color:inherit;}
 
 /* ---- hero ---- */
 .hero{padding:64px 0 40px;}
-.kicker{
-  color:var(--lime);
-  letter-spacing:.18em;
-  font-size:.72rem;
-  text-transform:uppercase;
-}
 .hero h1{
   font-family:'JetBrains Mono',monospace;
   font-weight:800;
@@ -86,11 +95,6 @@ a{text-decoration:none;color:inherit;}
   margin:.4rem 0 1rem;
 }
 .hero h1 .accent{color:var(--lime);}
-.hero p.lead-text{
-  color:var(--muted);
-  max-width:560px;
-  font-size:1.02rem;
-}
 .hero-count{
   font-family:'JetBrains Mono',monospace;
   font-size:4.2rem;
