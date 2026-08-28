@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HackStack — AI Toolkit for Hackathons</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar py-3">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center gap-2">
+      <span class="brand-dot"></span>
+      <span class="mono fw-bold">HackStack</span>
+    </div>
+    <button class="theme-toggle" id="themeToggle" title="Toggle theme" aria-label="Toggle dark or light mode">
+      <span id="themeIcon">☾</span>
+    </button>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="hero row align-items-end g-4">
+    <div class="col-lg-8">
+      <h1>Your AI toolbox, <span class="accent">one click away.</span></h1>
+      <div class="byline mono">
+        <span class="brand-dot"></span> crafted by <span class="accent">Kabish</span> for the team
+      </div>
+    </div>
+    <div class="col-lg-4 text-lg-end">
+      <div class="hero-count">16</div>
+      <div class="hero-count-label">tools · one pipeline</div>
+    </div>
+  </div>
+
+  <!-- search -->
+  <div class="toolbar d-flex align-items-center gap-3 mt-4">
+    <span class="mono" style="color:var(--muted)">$</span>
+    <input id="searchInput" class="form-control p-0" placeholder="grep tool_name  (try 'design', 'deploy', 'code'...)">
+  </div>
+
+  <div id="stages"></div>
+  <div id="emptyState">no matches — clear the search, the tool you want is still here.</div>
+
+  <footer>
+    <div class="d-flex flex-wrap justify-content-between gap-2">
+      <span>built by Kabish for the hackathon · HackStack</span>
+      <span>ctrl/cmd+K → search</span>
+    </div>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
