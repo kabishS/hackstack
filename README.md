@@ -45,4 +45,4 @@ Open `script.js` and edit the `TOOLS` array. Each entry looks like:
 ## 👨‍💻 Author
 
 **Kabish S**
-Java Full Stack Developer | Frontend Developer | Manual QA Tester | AI Enthusiast
+Java Full Stack Developer | Frontend Developer | Manual QA Tester | AI Enthusiast |
